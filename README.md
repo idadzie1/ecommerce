@@ -1,2 +1,2 @@
 # ecommerce
-Ecommerce website using html, CSS and Vanilla JS
+Responsive Ecommerce website with cart functionality using html, CSS and Vanilla JS
