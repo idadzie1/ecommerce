@@ -2,7 +2,7 @@
 const stocksData = [
     {
         id: 2452,
-        image: "/image/computer1.jpg",
+        image: "./image/computer1.jpg",
         Product: "HP 3000",
         Color: "Silver",
         Material:"Electronics",
@@ -15,7 +15,7 @@ const stocksData = [
 
     {
         id: 9803,
-        image: "/image/computer2.jpg",
+        image: "./image/computer2.jpg",
         Product: "Apple Computer",
         Color: "Grey",
         Material:"Electronics",
@@ -27,7 +27,7 @@ const stocksData = [
 
     {
         id: 3000,
-        image: "/image/computer3.jpg",
+        image: "./image/computer3.jpg",
         Product: "Dell Computer",
         Color: "Black",
         Material:"Electronics",
@@ -39,7 +39,7 @@ const stocksData = [
 
     {
         id: 4094,
-        image: "/image/computer4.jpg",
+        image: "./image/computer4.jpg",
         Product: "Accer Computer",
         Color: "Yellow",
         Material:"Electronics",
@@ -50,7 +50,7 @@ const stocksData = [
 
     {
         id: 5992,
-        image: "/image/computer5.jpg",
+        image: "./image/computer5.jpg",
         Product: "IBM PC",
         Color: "Grey",
         Material:"Electronics",
@@ -61,7 +61,7 @@ const stocksData = [
 
     {
         id: 62543,
-        image: "/image/computer6.png",
+        image: "./image/computer6.png",
         Product: "Lenovo",
         Color: "Black",
         Material:"Electronics",
@@ -72,7 +72,7 @@ const stocksData = [
 
     {
         id: 1107,
-        image: "/image/computer7.jpg",
+        image: "./image/computer7.jpg",
         Product: "Dell Computer",
         Color: "Grey",
         Material:"Electronics",
@@ -84,7 +84,7 @@ const stocksData = [
 
     {
         id: 8987,
-        image: "/image/computer8.jpg",
+        image: "./image/computer8.jpg",
         Product: "HP Computer",
         Color: "Grey",
         Material:"Electronics",
@@ -96,7 +96,7 @@ const stocksData = [
 
     {
         id: 2219,
-        image: "/image/computer9.jpg",
+        image: "./image/computer9.jpg",
         Product: "Huawei Computer",
         Color: "Grey",
         Material:"Electronics",
@@ -108,7 +108,7 @@ const stocksData = [
 
     {
         id: 1010,
-        image: "/image/computer10.jpg",
+        image: "./image/computer10.jpg",
         Product: "HP Computer",
         Color: "Black",
         Material:"Electronics",
@@ -120,7 +120,7 @@ const stocksData = [
 
     {
         id: 1091,
-        image: "/image/shoe1.jpg",
+        image: "./image/shoe1.jpg",
         Product: "Shoe",
         Color: "Light Blue",
         Material:"leather",
@@ -132,7 +132,7 @@ const stocksData = [
 
     {
         id: 1100,
-        image: "/image/shoe2.jpg",
+        image: "./image/shoe2.jpg",
         Product: "Shoe",
         Color: "Green and Blue",
         Material:"leather",
@@ -145,7 +145,7 @@ const stocksData = [
 
     {
         id: 1101,
-        image: "/image/shoe3.jpg",
+        image: "./image/shoe3.jpg",
         Product: "Shoe",
         Color: "Black",
         Material:"leather",
@@ -157,7 +157,7 @@ const stocksData = [
 
     {
         id: 1110,
-        image: "/image/shoe4.jpg",
+        image: "./image/shoe4.jpg",
         Product: "Shoe",
         Color: "Yellow White Blue",
         Material:"leather",
@@ -168,7 +168,7 @@ const stocksData = [
 
     {
         id: 1120,
-        image: "/image/shoe5.jpg",
+        image: "./image/shoe5.jpg",
         Product: "Shoe",
         Color: "Yellow White",
         Material:"leather",
@@ -180,7 +180,7 @@ const stocksData = [
 
     {
         id: 1130,
-        image: "/image/shoe6.jpg",
+        image: "./image/shoe6.jpg",
         Product: "Shoe",
         Color: "Red Black White",
         Material:"leather",
@@ -191,7 +191,7 @@ const stocksData = [
 
     {
         id: 1140,
-        image: "/image/shoe7.jpg",
+        image: "./image/shoe7.jpg",
         Product: "Shoe",
         Color: "Blue",
         Material:"leather",
@@ -202,7 +202,7 @@ const stocksData = [
 
     {
         id: 1230,
-        image: "/image/shoe8.jpg",
+        image: "./image/shoe8.jpg",
         Product: "Shoe",
         Color: "Red",
         Material:"leather",
@@ -213,7 +213,7 @@ const stocksData = [
 
     {
         id: 1235,
-        image: "/image/shoe9.jpg",
+        image: "./image/shoe9.jpg",
         Product: "Shoe",
         Color: "Blue and Brown",
         Material:"leather",
@@ -224,7 +224,7 @@ const stocksData = [
 
     {
         id: 1255,
-        image: "/image/shoe10.jpg",
+        image: "./image/shoe10.jpg",
         Product: "Shoe",
         Color: "Yellow",
         Material:"leather",
@@ -235,7 +235,7 @@ const stocksData = [
 
     {
         id: 1278,
-        image: "/image/shoe11.jpg",
+        image: "./image/shoe11.jpg",
         Product: "Shoe",
         Color: "Navy Blue",
         Material:"leather",
@@ -246,7 +246,7 @@ const stocksData = [
 
     {
         id: 1977,
-        image: "/image/suit1.jpg",
+        image: "./image/suit1.jpg",
         Product: "Office Suit",
         Color: "Dark Black",
         Material:"Cotton",
@@ -257,7 +257,7 @@ const stocksData = [
 
     {
         id: 20011,
-        image: "/image/suit2.jpg",
+        image: "./image/suit2.jpg",
         Product: "Office Suit",
         Color: "Assorted Colors",
         Material:"Primed cotton",
@@ -268,7 +268,7 @@ const stocksData = [
 
     {
         id: 2080,
-        image: "/image/suit3.jpg",
+        image: "./image/suit3.jpg",
         Product: "Toxedo Suit",
         Color: "Assorted Colors",
         Material:"Primed cotton",
@@ -279,7 +279,7 @@ const stocksData = [
 
     {
         id: 1549,
-        image: "/image/suit4.jpg",
+        image: "./image/suit4.jpg",
         Product: "Toxedo Suit",
         Color: "Blue",
         Material:"Primed cotton",
@@ -290,7 +290,7 @@ const stocksData = [
 
     {
         id: 1611,
-        image: "/image/suit5.jpg",
+        image: "./image/suit5.jpg",
         Product: "Suit",
         Color: "grey",
         Material:"Primed cotton",
@@ -301,7 +301,7 @@ const stocksData = [
 
     {
         id: 1667,
-        image: "/image/suit6.jpg",
+        image: "./image/suit6.jpg",
         Product: "Toxedo Suit",
         Color: "Dark Black",
         Material:"Primed cotton",
@@ -312,7 +312,7 @@ const stocksData = [
 
     {
         id: 1867,
-        image: "/image/suit7.jpg",
+        image: "./image/suit7.jpg",
         Product: "Toxedo Suit",
         Color: "Dark Blue",
         Material:"Primed cotton",
@@ -323,7 +323,7 @@ const stocksData = [
 
     {
         id: 1878,
-        image: "/image/suit8.jpg",
+        image: "./image/suit8.jpg",
         Product: "Toxedo Suit",
         Color: "Dark Blue",
         Material:"Primed cotton",
@@ -334,7 +334,7 @@ const stocksData = [
     
     {
         id: 1857,
-        image: "/image/shirt1.jpg",
+        image: "./image/shirt1.jpg",
         Product: "Chekered Bolo shirt",
         Color: "Blue white",
         Material:"Primed cotton",
@@ -345,7 +345,7 @@ const stocksData = [
 
     {
         id: 1820,
-        image: "/image/shirt2.jpg",
+        image: "./image/shirt2.jpg",
         Product: "Emando shirt",
         Color: "Light Blue",
         Material:"Primed cotton",
@@ -356,7 +356,7 @@ const stocksData = [
 
     {
         id: 1823,
-        image: "/image/shirt3.jpg",
+        image: "./image/shirt3.jpg",
         Product: "Ladies shirt",
         Color: "Creamy white",
         Material:"Primed cotton",
