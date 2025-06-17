@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Dynamic Loading</title>
+</head>
+<body>
+    <nav>
+         <div class="menu-hanburgerIcon">
+                <img src="./image/menu_hamburger_icon.png" alt="">
+            </div>
+        <div class="nav__container">
+            <div class="nav__logo">
+                <a href=""><img src="./image/logo3.png"></a>
+            </div>
+           
+            <div class="nav__menu">
+                <div class="left__menuItems">
+                    <ul>
+                        <li><a href="#footer">stocks</a></li>
+                        <li><a href="#index.html">special sales</a></li>
+                        <li><a href="#index.html">contact</a></li>
+                    </ul>
+                </div>
+                <div class="right__menu">
+                    <a href=""><div class="login">Sign up</div></a>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="search" id="search-input">
+                    <small>&#x1F50D</small>                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="items__container">           
+        </div>
+    </section>
+    <!-- Cart table overlay -->
+    <aside>
+             
+        <div class="cart">
+            <div class="close__btn">
+                <span>&#9932</span>
+            </div>              
+            <div class="cart__details">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Code</th>
+                            <th>Product</th>
+                            <th>Unit Price</th>
+                            <th>Qty</th>
+                            <th>Cost</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart__table">                        
+                  
+                    </tbody>                   
+                </table>
+
+                <div class="grand__Total">
+                    <span>Grand Total =</span>
+                    <span id="grand"></span>
+                </div>
+
+                <div class="control__btns">
+                    <div class="clear">Clear All</div>
+                    <div class="submit">Enter</div>
+                </div>
+               
+            </div>
+        </div>
+    </aside>
+    
+    <!-- Enhanced image overlay  -->
+    <section class="image-preview">
+        <div class="enhanced">
+            <div class="closeBtn">
+                <span id="btnClose">&#9932</span>
+            </div>
+            <div class="view__image">
+                <img src="./image/computer1.jpg" alt="">
+            </div>  
+        </div>      
+    </section>    
+    
+
+    <footer id="footer">
+        <div class="footer__container">
+            <div class="socialmedia__handles">
+                <span><a href=""><img src="/image/facebook.png"></a></span>
+                <span><a href=""><img src="/image/instagram.png" alt=""></a></span>
+                <span><a href=""><img src="/image/xtwitter.png" alt=""></a></span>
+                <span><a href=""><img src="/image/linkedin.png" alt=""></a></span>
+            </div>
+
+            <div class="menuItems">
+                <ul>
+                    <li><a href="">stocks</a></li>
+                    <li><a href="">special sales</a></li>
+                    <li><a href="">special orders</a></li>
+                    <li><a href="">special discount</a></li>
+                    <li><a href="">black Friday sales</a></li>                    
+                </ul>            
+            </div>
+
+            <div class="contacts">
+                <address>
+                    Temple Street,<br>
+                    Ablekuma, Accra<br>
+                    Ghana<br>
+                    Tel: +2330201234567
+                </address>
+            </div>
+        </div>
+        <div class="copyright">This website is © 2025 My Company.</div>
+    </footer>
+
+    
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
